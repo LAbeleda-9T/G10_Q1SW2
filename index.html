@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrella's Menu</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+  <!-- pyscript -->
+  <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+  <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+  
+  <!--style-->
+  <style>
+  h1 {
+    color: #4E3822;
+  }
+
+  h3 {
+    color: #593D3B;
+  }
+
+  body{
+    background-color: #8A7968;
+  }
+
+  #output {
+  background-color: #AB947E;  /* <--- added semicolon */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+
+</style>
+
+</head>
+<body>
+
+<div class="container mt-4">
+  <h1 class="text-center">Carrella's Cafe</h1>
+  <h3 class="text-center"> A cafe that will treat you right.</h3>
+
+  <!-- Output goes here -->
+  <div id="output" class="p-3 rounded mt-3"></div>
+
+  <!-- main.py -->
+  <py-script src="main.py"></py-script>
+</div>
+
+</body>
+</html>
